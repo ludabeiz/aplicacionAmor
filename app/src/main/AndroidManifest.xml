@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.davidbernal.parakatty">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <service
+                android:name=".MusicService"
+                android:enabled="true" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".splash_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+
+        <activity android:name=".dos">
+        </activity>
+        <activity android:name=".tres">
+        </activity>
+        <activity android:name=".cuatro">
+        </activity>
+        <activity android:name=".cinco">
+        </activity>
+        <activity android:name=".seis">
+        </activity>
+        <activity android:name=".siete">
+        </activity>
+        <activity android:name=".ocho">
+        </activity>
+        <activity android:name=".nueve">
+        </activity>
+        <activity android:name=".diez">
+        </activity>
+        <activity android:name=".once">
+        </activity>
+        <activity android:name=".doce">
+        </activity>
+        <activity android:name=".trece">
+        </activity>
+        <activity android:name=".catorce">
+        </activity>
+        <activity android:name=".quince">
+        </activity>
+        <activity android:name=".dieciseis">
+        </activity>
+        <activity android:name=".diecisiete">
+        </activity>
+        <activity android:name=".dieciocho">
+        </activity>
+        <activity android:name=".diecinueve">
+        </activity>
+        <activity android:name=".veinte">
+        </activity>
+        <activity android:name=".veintiuno">
+        </activity>
+        <activity android:name=".veintidos">
+        </activity>
+        <activity android:name=".veintitres">
+        </activity>
+        <activity android:name=".veintcuatro">
+        </activity>
+        <activity android:name=".veinticinco">
+        </activity>
+        <activity android:name=".veintiseis">
+        </activity>
+        <activity android:name=".veintisiete">
+        </activity>
+        <activity android:name=".veintiocho">
+        </activity>
+        <activity android:name=".veintinueve">
+        </activity>
+        <activity android:name=".treinta">
+        </activity>
+        <activity android:name=".treintauno">
+        </activity>
+        <activity android:name=".treintados">
+        </activity>
+        <activity android:name=".treintatres">
+        </activity>
+        <activity android:name=".treintacuatro">
+        </activity>
+        <activity android:name=".treintacinco">
+        </activity>
+        <activity android:name=".treintaseis">
+        </activity>
+        <activity android:name=".treintasiete">
+        </activity>
+        <activity android:name=".treintaocho">
+        </activity>
+        <activity android:name=".treintanueve">
+        </activity>
+        <activity android:name=".cuarenta">
+        </activity>
+        <activity android:name=".cuarentauno">
+        </activity>
+        <activity android:name=".cuarentados">
+        </activity>
+        <activity android:name=".cuarentatres">
+        </activity>
+        <activity android:name=".cuarentacuatro">
+        </activity>
+        <activity android:name=".cuarentacinco">
+        </activity>
+        <activity android:name=".cuarentaseis">
+        </activity>
+        <activity android:name=".cuarentasiete">
+        </activity>
+        <activity android:name=".cuarentaocho">
+        </activity>
+        <activity android:name=".cuarentanueve">
+        </activity>
+    </application>
+
+</manifest>
